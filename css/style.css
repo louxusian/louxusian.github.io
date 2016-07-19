@@ -345,6 +345,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   z-index: -1;
+  opacity: 0.8;
 }
 #header-title {
   text-align: center;
@@ -363,8 +364,9 @@ body {
 }
 #logo {
   font-size: 40px;
-  line-height: 40px;
-  letter-spacing: 2px;
+  line-height: 15px;
+  letter-spacing: 14px;
+  font-weight: 100;
 }
 #subtitle {
   font-size: 16px;
@@ -996,7 +998,7 @@ a.article-title:hover {
 }
 .archive-article-title {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 300;
   color: #555;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
@@ -1288,11 +1290,15 @@ pre .javascript .function {
 }
 #about {
   text-align: center;
-  background-color: #fefbec;
+  background-color: #b0e0e6;
 }
 #about .header {
   font-size: 4rem;
   font-family: 'Open Sans Condensed', cursive;
+}
+#about .header a {
+  text-decoration: none;
+  color: #000;
 }
 #about .header span {
   display: block;
@@ -1304,6 +1310,50 @@ pre .javascript .function {
   margin: 2rem 10rem;
   background-color: #fff;
   font-family: 'Quicksand', cursive;
+}
+@media screen and (max-width: 55rem) {
+  #about .content {
+    margin: 2rem 3rem;
+  }
+}
+@media screen and (max-width: 30rem) {
+  #about .content {
+    margin: 2rem 0;
+  }
+}
+#about .content .title {
+  display: block;
+  font-weight: bolder;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  color: #400000;
+}
+#about .content .block {
+  margin: 3rem auto;
+}
+#about .content .block .content {
+  margin: auto 8rem;
+  color: #590000;
+}
+@media screen and (max-width: 70rem) {
+  #about .content .block .content {
+    margin: 0;
+  }
+}
+#about .content table {
+  border: 1px solid #ddd;
+}
+#about .content table td {
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+#about .footer {
+  font-family: 'Open Sans Condensed', cursive;
+  text-align: center;
+  width: 100%;
+}
+#about .copyright {
+  padding-bottom: 1rem;
 }
 .widget-wrap {
   margin-bottom: 50px !important;
