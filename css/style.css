@@ -1309,21 +1309,18 @@ pre .javascript .function {
   display: block;
   font-size: 1rem;
   font-family: 'Nothing You Could Do', cursive;
+  padding: 0.5rem;
 }
 #about .content {
   padding: 1rem 1rem;
-  margin: 2rem 10rem;
+  margin: 2rem auto;
+  max-width: 60rem;
   background-color: #fff;
   font-family: 'Quicksand', cursive;
 }
-@media screen and (max-width: 55rem) {
+@media screen and (max-width: 60rem) {
   #about .content {
-    margin: 2rem 3rem;
-  }
-}
-@media screen and (max-width: 30rem) {
-  #about .content {
-    margin: 2rem 0;
+    max-width: 45rem;
   }
 }
 #about .content .title {
@@ -1337,23 +1334,19 @@ pre .javascript .function {
   margin: 3rem auto;
 }
 #about .content .block .content {
-  margin: auto 8rem;
+  margin: auto 5rem;
   color: #590000;
 }
-@media screen and (max-width: 70rem) {
-  #about .content .block .content {
-    margin: 0 2rem;
-  }
-}
-@media screen and (max-width: 55rem) {
+@media screen and (max-width: 60rem) {
   #about .content .block .content {
     margin: 0;
   }
 }
 #about .content .block .content .date {
   color: #2d2d2d;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-style: italic;
+  display: inline-block;
 }
 #about .content .block .content a {
   text-decoration: none;
@@ -1363,6 +1356,7 @@ pre .javascript .function {
   list-style-type: square;
   text-align: left;
   color: #2d2d2d;
+  padding-left: 1rem;
 }
 #about .content table {
   width: 100%;
@@ -1371,6 +1365,19 @@ pre .javascript .function {
 #about .content table td {
   padding: 1rem 1rem;
   border-bottom: 1px solid #ddd;
+}
+@media screen and (max-width: 60rem) {
+  #about .content table td {
+    display: block;
+  }
+}
+#about .content table td:first-child {
+  width: 8rem;
+}
+@media screen and (max-width: 60rem) {
+  #about .content table td:first-child {
+    width: auto;
+  }
 }
 #about .footer {
   font-family: 'Open Sans Condensed', cursive;
