@@ -1292,6 +1292,11 @@ pre .javascript .function {
   text-align: center;
   background-color: #c7e9ed;
 }
+#about h3 {
+  font-size: 1rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
 #about .header {
   font-size: 4rem;
   font-family: 'Open Sans Condensed', cursive;
@@ -1337,10 +1342,30 @@ pre .javascript .function {
 }
 @media screen and (max-width: 70rem) {
   #about .content .block .content {
+    margin: 0 2rem;
+  }
+}
+@media screen and (max-width: 55rem) {
+  #about .content .block .content {
     margin: 0;
   }
 }
+#about .content .block .content .date {
+  color: #2d2d2d;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+#about .content .block .content a {
+  text-decoration: none;
+  color: #590000;
+}
+#about .content ul {
+  list-style-type: square;
+  text-align: left;
+  color: #2d2d2d;
+}
 #about .content table {
+  width: 100%;
   border: 1px solid #ddd;
 }
 #about .content table td {
