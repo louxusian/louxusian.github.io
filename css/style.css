@@ -123,12 +123,12 @@ body,
   height: 100%;
 }
 body {
-  background: #eee;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fbfbfb;
+  font: 14px "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
-  max-width: 920px;
+  max-width: 550px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -174,7 +174,7 @@ body {
   -ms-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
   z-index: 1;
-  background: #eee;
+  background: #fbfbfb;
 }
 .mobile-nav-on #wrap {
   left: 280px;
@@ -195,8 +195,6 @@ body {
 .article-inner,
 .archive-article-inner {
   background: #fff;
-  -webkit-box-shadow: 1px 2px 3px #ddd;
-  box-shadow: 1px 2px 3px #ddd;
   border: 1px solid #ddd;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -223,7 +221,7 @@ body {
 }
 .article-entry h6,
 .widget h6 {
-  font-size: 1em;
+  font-size: 0.8em;
   color: #999;
 }
 .article-entry hr,
@@ -327,6 +325,7 @@ body {
   background: linear-gradient(transparent, rgba(0,0,0,0.2));
 }
 #header-outer {
+  max-width: 100%;
   height: 100%;
   position: relative;
 }
@@ -349,11 +348,11 @@ body {
 }
 #header-title {
   text-align: center;
-  height: 40px;
+  height: 30px;
   position: absolute;
   top: 50%;
   left: 0;
-  margin-top: -20px;
+  margin-top: -15px;
 }
 #logo,
 #subtitle {
@@ -363,7 +362,7 @@ body {
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 #logo {
-  font-size: 40px;
+  font-size: 30px;
   line-height: 15px;
   letter-spacing: 14px;
   font-weight: 100;
@@ -477,7 +476,7 @@ body {
   background: none;
   color: #555;
   width: 100%;
-  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 13px "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
   outline: none;
 }
 .search-form-input::-webkit-search-results-decoration,
@@ -595,10 +594,11 @@ a.article-title:hover {
 }
 .article-entry img,
 .article-entry video {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
   margin: auto;
+  padding-top: 1rem;
 }
 .article-entry iframe {
   border: none;
@@ -626,7 +626,7 @@ a.article-title:hover {
 .article-entry blockquote footer {
   font-size: 14px;
   margin: 1.6em 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .article-entry blockquote footer cite:before {
   content: "—";
@@ -670,12 +670,13 @@ a.article-title:hover {
   margin-top: 0;
 }
 .article-more-link a {
+  font-size: 0.8em;
   display: inline-block;
   line-height: 1em;
-  padding: 6px 15px;
+  padding: 4px 8px;
   -webkit-border-radius: 15px;
   border-radius: 15px;
-  background: #eee;
+  background: #fbfbfb;
   color: #999;
   text-shadow: 0 1px #fff;
   text-decoration: none;
@@ -834,7 +835,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 15px;
   color: #555;
   outline: none;
@@ -845,7 +846,7 @@ a.article-title:hover {
   line-height: 36px;
 }
 .article-share-links {
-  background: #eee;
+  background: #fbfbfb;
 }
 .article-share-links:before,
 .article-share-links:after {
@@ -1076,7 +1077,7 @@ a.article-title:hover {
   color: #ddd;
 }
 #footer {
-  background: #262a30;
+  background: #374458;
   padding: 50px 0;
   border-top: 1px solid #ddd;
   color: #999;
@@ -1094,7 +1095,7 @@ a.article-title:hover {
 }
 .article-entry pre,
 .article-entry .highlight {
-  background: #2d2d2d;
+  background: #fff;
   margin: 0 -20px;
   padding: 15px 20px;
   border-style: solid;
@@ -1114,7 +1115,7 @@ a.article-title:hover {
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .article-entry code {
-  background: #eee;
+  background: #fbfbfb;
   text-shadow: 0 1px #fff;
   padding: 0 0.3em;
 }
@@ -1168,7 +1169,7 @@ a.article-title:hover {
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
-  background: #2d2d2d;
+  background: #fff;
   padding: 15px 20px 15px 0;
 }
 .article-entry .gist .gist-file {
@@ -1194,9 +1195,9 @@ a.article-title:hover {
   border: none;
 }
 .article-entry .gist .gist-file .gist-meta {
-  background: #2d2d2d;
+  background: #fff;
   color: #999;
-  font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0.85em "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
@@ -1272,7 +1273,7 @@ pre .javascript .function {
     left: 0;
     width: 280px;
     height: 100%;
-    background: #191919;
+    background: #374458;
     border-right: 1px solid #fff;
   }
 }
@@ -1290,7 +1291,7 @@ pre .javascript .function {
 }
 #about {
   text-align: center;
-  background-color: #c7e9ed;
+  background-color: #4d5d77;
 }
 #about h3 {
   font-size: 1rem;
@@ -1303,13 +1304,14 @@ pre .javascript .function {
 }
 #about .header a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 #about .header span {
   display: block;
   font-size: 1rem;
   font-family: 'Nothing You Could Do', cursive;
   padding: 0.5rem;
+  color: #f5f5f5;
 }
 #about .content {
   padding: 1rem 1rem;
@@ -1350,7 +1352,8 @@ pre .javascript .function {
 }
 #about .content .block .content a {
   text-decoration: none;
-  color: #590000;
+  color: #6783af;
+  font-weight: bolder;
 }
 #about .content ul {
   list-style-type: square;
@@ -1383,6 +1386,7 @@ pre .javascript .function {
   font-family: 'Open Sans Condensed', cursive;
   text-align: center;
   width: 100%;
+  color: #f5f5f5;
 }
 #about .copyright {
   padding-bottom: 1rem;
