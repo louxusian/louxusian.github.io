@@ -543,7 +543,7 @@ body {
   transition: color 0.2s;
 }
 a.article-title:hover {
-  color: #258fb8;
+  color: #81b7cc;
 }
 .article-entry {
   color: #555;
@@ -580,7 +580,7 @@ a.article-title:hover {
   margin: 1.1em 0;
 }
 .article-entry a {
-  color: #258fb8;
+  color: #81b7cc;
   text-decoration: none;
 }
 .article-entry a:hover {
@@ -682,10 +682,10 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-more-link a:hover {
-  background: #258fb8;
+  background: #81b7cc;
   color: #fff;
   text-decoration: none;
-  text-shadow: 0 1px #1e7293;
+  text-shadow: 0 1px #529cb9;
 }
 .article-footer {
   font-size: 0.85em;
@@ -952,7 +952,7 @@ a.article-title:hover {
   margin: 50px 0;
 }
 #comments a {
-  color: #258fb8;
+  color: #81b7cc;
 }
 .archives-wrap {
   margin: 50px 0;
@@ -1008,7 +1008,7 @@ a.article-title:hover {
   line-height: 1.6em;
 }
 .archive-article-title:hover {
-  color: #258fb8;
+  color: #81b7cc;
 }
 .archive-article-footer {
   margin-top: 1em;
@@ -1083,7 +1083,7 @@ a.article-title:hover {
   color: #999;
 }
 #footer a {
-  color: #258fb8;
+  color: #81b7cc;
   text-decoration: none;
 }
 #footer a:hover {
@@ -1204,7 +1204,7 @@ a.article-title:hover {
   margin-left: 20px;
 }
 .article-entry .gist .gist-file .gist-meta a {
-  color: #258fb8;
+  color: #81b7cc;
   font-weight: normal;
 }
 .article-entry .gist .gist-file .gist-meta a:hover {
@@ -1291,7 +1291,7 @@ pre .javascript .function {
 }
 #about {
   text-align: center;
-  background-color: #4d5d77;
+  background-color: #5a749e;
 }
 #about h3 {
   font-size: 1rem;
@@ -1299,6 +1299,7 @@ pre .javascript .function {
   margin-bottom: 1rem;
 }
 #about .header {
+  padding-top: 1rem;
   font-size: 4rem;
   font-family: 'Open Sans Condensed', cursive;
 }
@@ -1327,7 +1328,7 @@ pre .javascript .function {
 }
 #about .content .title {
   display: block;
-  font-weight: bolder;
+  font-family: "Helvetica Neue";
   margin: 0.5rem;
   font-size: 1.5rem;
   color: #400000;
@@ -1337,7 +1338,7 @@ pre .javascript .function {
 }
 #about .content .block .content {
   margin: auto 5rem;
-  color: #590000;
+  color: #374163;
 }
 @media screen and (max-width: 60rem) {
   #about .content .block .content {
