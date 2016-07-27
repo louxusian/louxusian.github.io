@@ -1357,7 +1357,7 @@ pre .javascript .function {
   font-weight: bolder;
 }
 #about .content ul {
-  list-style-type: square;
+  list-style-type: disc;
   text-align: left;
   color: #2d2d2d;
   padding-left: 1rem;
